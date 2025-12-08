@@ -313,7 +313,7 @@
 .web_list{
     display: grid;
     grid-template-columns: repeat(3, 350px);
-    grid-template-rows: repeat(2, 400px);
+    grid-template-rows: repeat(2, 450px);
     align-items: stretch;
     align-content: center;
     justify-content: center;
@@ -321,10 +321,34 @@
     gap: 30px;
     margin: 0 auto;
 }
-/* .web_item{
-    
-} */
-
+.web_item{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    background:
+    linear-gradient(white, white) padding-box,
+    linear-gradient(to right, var(--bg-center-green), var(--bg-black-grey-green), var(--bg-black-green)) border-box;
+}
+.web_content{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-title{
+    color: var(--bg-black-grey-green);
+}
+.terminal_wraper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 @media screen and (max-width:1024px){
     .hero{
         position: relative;
