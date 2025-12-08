@@ -1,0 +1,642 @@
+:root{
+    --bg-black-green:#062D0A;
+    --bg-black-grey-green:#0B5D1E;
+    --bg-center-green:#0F9D58;
+    --bg-white-grey-green:#1ECD73;
+    --bg-white-green:#2AF598;
+    --color-black-green:#062D0A;
+    --color-black-grey-green:#0B5D1E;
+    --color-center-green:#0F9D58;
+    --color-white-grey-green:#1ECD73;
+    --color-white-green:#2AF598;
+    --bg-white:white;
+    --bg-black:black;
+}
+.hero{
+    position: relative;
+    padding: 150px 0;
+}
+.hero_title{
+    width: 500px;
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--bg-black-grey-green);
+}
+.hero_item{
+    background: var(--bg-white);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+    border: 5px solid transparent;
+    border-radius: 50%;
+    background:
+    linear-gradient(white, white) padding-box,
+    linear-gradient(to right, var(--bg-center-green), var(--bg-black-grey-green), var(--bg-black-green)) border-box;
+    cursor: cell;
+}
+.item_code{
+    color: var(--bg-black-grey-green);
+}
+.hero_item:nth-child(1){
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    z-index: 1;
+    transform: scale(100%);    
+    animation: infinite 8s code1 linear;
+}
+.hero_item:nth-child(2){
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    z-index: 2;
+    transform: scale(50%);
+    animation: infinite 8s code2 linear;
+}
+.hero_item:nth-child(3){
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    z-index: 3;
+    transform: scale(50%);
+    animation: infinite 8s code3 linear;
+}
+.hero_item:nth-child(4){
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    z-index: 4;
+    transform: scale(50%);
+    animation: infinite 8s code4 linear;
+}
+@keyframes code1{
+    0%{
+        position: absolute;
+        top: 10px;
+        right: 200px;
+        transform: scale(100%);
+        z-index: 1;
+    }
+    10%{
+        position: absolute;
+        top: 10px;
+        right: 200px;
+        transform: scale(100%);
+        z-index: 1;
+    }
+    30%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+    40%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+    50%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+    60%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+    70%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+    80%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+}
+@keyframes code2{
+    0%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+    10%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+    30%{
+        position: absolute;
+        top: 10px;
+        right: 200px;
+        transform: scale(100%);
+        z-index: 1;
+    }
+    40%{
+        position: absolute;
+        top: 10px;
+        right: 200px;
+        transform: scale(100%);
+        z-index: 1;
+    }
+    50%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+    60%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+    70%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+    80%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+}
+@keyframes code3{
+    0%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+    10%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+    30%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+    40%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+    50%{
+        position: absolute;
+        top: 10px;
+        right: 200px;
+        transform: scale(100%);
+        z-index: 1;
+    }
+    60%{
+        position: absolute;
+        top: 10px;
+        right: 200px;
+        transform: scale(100%);
+        z-index: 1;
+    }
+    70%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+    80%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+}
+@keyframes code4{
+    0%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+    10%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+    30%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+    40%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+    50%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+    60%{
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 1;
+        transform: scale(50%);
+    }
+    70%{
+        position: absolute;
+        top: 10px;
+        right: 200px;
+        transform: scale(100%);
+        z-index: 1;
+    }
+    80%{
+        position: absolute;
+        top: 10px;
+        right: 200px;
+        transform: scale(100%);
+        z-index: 1;
+    }
+}
+
+.web_title{
+    text-align: center;
+    color: var(--bg-black-grey-green);
+    margin:30px auto;
+    width: 500px;
+}
+.web_list{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 400px);
+    align-items: stretch;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    gap: 30px;
+    margin: 0 auto;
+}
+/* .web_item{
+    
+} */
+
+@media screen and (max-width:1024px){
+    .hero{
+        position: relative;
+        padding: 100px 0;
+    }
+    .hero_title{
+        width: 450px;
+        font-size: 40px;
+    }
+    .hero_item{
+        background: var(--bg-white);
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        overflow: hidden;
+        text-align: center;
+        border: 5px solid transparent;
+        border-radius: 50%;
+        background:
+        linear-gradient(white, white) padding-box,
+        linear-gradient(to right, var(--bg-center-green), var(--bg-black-grey-green), var(--bg-black-green)) border-box;
+        cursor: cell;
+    }
+    .item_code{
+        color: var(--bg-black-grey-green);
+    }
+    .hero_item:nth-child(1){
+        position: absolute;
+        top: 10px;
+        right: 130px;
+        z-index: 1;
+        transform: scale(100%);    
+        animation: infinite 8s code1 linear;
+    }
+    .hero_item:nth-child(2){
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 2;
+        transform: scale(50%);
+        animation: infinite 8s code2 linear;
+    }
+    .hero_item:nth-child(3){
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 3;
+        transform: scale(50%);
+        animation: infinite 8s code3 linear;
+    }
+    .hero_item:nth-child(4){
+        position: absolute;
+        top: 150px;
+        right: 0px;
+        z-index: 4;
+        transform: scale(50%);
+        animation: infinite 8s code4 linear;
+    }
+    @keyframes code1{
+        0%{
+            position: absolute;
+            top: 10px;
+            right: 130px;
+            transform: scale(100%);
+            z-index: 1;
+        }
+        10%{
+            position: absolute;
+            top: 10px;
+            right: 130px;
+            transform: scale(100%);
+            z-index: 1;
+        }
+        30%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+        40%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+        50%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+        60%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+        70%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+        80%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+    }
+    @keyframes code2{
+        0%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+        10%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+        30%{
+            position: absolute;
+            top: 10px;
+            right: 130px;
+            transform: scale(100%);
+            z-index: 1;
+        }
+        40%{
+            position: absolute;
+            top: 10px;
+            right: 130px;
+            transform: scale(100%);
+            z-index: 1;
+        }
+        50%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+        60%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+        70%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+        80%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+    }
+    @keyframes code3{
+        0%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+        10%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+        30%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+        40%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+        50%{
+            position: absolute;
+            top: 10px;
+            right: 130px;
+            transform: scale(100%);
+            z-index: 1;
+        }
+        60%{
+            position: absolute;
+            top: 10px;
+            right: 130px;
+            transform: scale(100%);
+            z-index: 1;
+        }
+        70%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+        80%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+    }
+    @keyframes code4{
+        0%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+        10%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+        30%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+        40%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+        50%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+        60%{
+            position: absolute;
+            top: 150px;
+            right: 0px;
+            z-index: 1;
+            transform: scale(50%);
+        }
+        70%{
+            position: absolute;
+            top: 10px;
+            right: 130px;
+            transform: scale(100%);
+            z-index: 1;
+        }
+        80%{
+            position: absolute;
+            top: 10px;
+            right: 130px;
+            transform: scale(100%);
+            z-index: 1;
+        }
+    }
+}
+@media screen and (max-width:768px){
+    .hero_title{
+        font-size:xx-large ;
+        font-weight: 600;
+    }
+}
+@media screen and (max-width:480px) and (min-width:320px){
+    .hero{
+        padding: 80px 0;
+    }
+    .hero_wraper{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .hero_title{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+    .hero_animation-list{
+        display: none;
+    }
+}

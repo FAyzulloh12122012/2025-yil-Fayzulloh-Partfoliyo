@@ -1,0 +1,35 @@
+:root{
+    --bg-black-green:#062D0A;
+    --bg-black-grey-green:#0B5D1E;
+    --bg-center-green:#0F9D58;
+    --bg-white-grey-green:#1ECD73;
+    --bg-white-green:#2AF598;
+    --color-black-green:#062D0A;
+    --color-black-grey-green:#0B5D1E;
+    --color-center-green:#0F9D58;
+    --color-white-grey-green:#1ECD73;
+    --color-white-green:#2AF598;
+    --bg-white:white;
+    --bg-black:black;
+}
+.sidebar{
+    display: none;
+}
+.sidebar_btn{
+    background: var(--bg-white);
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background:
+    linear-gradient(white, white) padding-box,
+    linear-gradient(to right, var(--bg-center-green), var(--bg-black-grey-green), var(--bg-black-green)) border-box;
+    display: flex;
+    justify-self: flex-end;
+}
+.sidebar_title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #0B5D1E;
+}
+.sidebar_text{
+    width: 250px;
+}
