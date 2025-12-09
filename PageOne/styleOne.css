@@ -303,7 +303,6 @@
         z-index: 1;
     }
 }
-
 .web_title{
     text-align: center;
     color: var(--bg-black-grey-green);
@@ -341,13 +340,53 @@
     flex-direction: column;
     gap: 10px;
 }
-.card-title{
+.web_item-btn{
+    background:white;
+    width: 150px;
+    height: 40px;
+    border: 2px solid var(--bg-black-grey-green);
     color: var(--bg-black-grey-green);
+    font-weight: 400;
+    font-size: small;
+    border-radius: 10px;
+}
+.web_subtitle{
+    font-size: xx-large;
+    font-weight: 600;
+    color: var(--bg-black-grey-green);
+}
+.web_text{
+    font-size: small;
+    font-weight: 400;
+    color: var(--bg-center-green);
+}
+.terminal{
+    padding: 100px 0;
 }
 .terminal_wraper{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+.terminal_title{
+    font-size: 42px;
+    font-weight: 600;
+    color: var(--bg-black-grey-green);
+}
+.terminal_text{
+    width: 600px;
+    color: var(--bg-center-green);
+    font-weight: 400;
+}
+.terminal_btn{
+    background:white;
+    width: 150px;
+    height: 40px;
+    border: 2px solid var(--bg-black-grey-green);
+    color: var(--bg-black-grey-green);
+    font-weight: 400;
+    font-size: small;
+    border-radius: 10px;
 }
 @media screen and (max-width:1024px){
     .hero{
@@ -414,6 +453,7 @@
             right: 130px;
             transform: scale(100%);
             z-index: 1;
+            
         }
         10%{
             position: absolute;
@@ -639,11 +679,33 @@
             z-index: 1;
         }
     }
+    .web_title{
+        width: 450px;
+    }
+    .web_list{
+                display: grid;
+                grid-template-columns: repeat(2, 400px);
+                grid-template-rows: repeat(3, 450px);
+    }
 }
 @media screen and (max-width:768px){
     .hero_title{
         font-size:xx-large ;
         font-weight: 600;
+    }
+    .web_list{
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+        grid-template-rows: repeat(3, 450px);
+    }
+    .terminal_wraper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .terminal_content{
+        text-align: center;
     }
 }
 @media screen and (max-width:480px) and (min-width:320px){
@@ -662,5 +724,21 @@
     }
     .hero_animation-list{
         display: none;
+    }
+    .web_list{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 500px);
+    }
+    .web_title{
+        width: 350px;
+    }
+    .terminal_title{
+        font-size: xx-large;
+    }
+    .terminal_text{
+        width: 320px;
+        margin: 0 auto;
+        margin-bottom: 10px;
     }
 }

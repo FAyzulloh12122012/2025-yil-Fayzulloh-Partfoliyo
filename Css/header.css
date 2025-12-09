@@ -31,7 +31,7 @@
     linear-gradient(white, white) padding-box,
     linear-gradient(to right, var(--bg-center-green), var(--bg-black-grey-green), var(--bg-black-green)) border-box;
     padding: 15px 20px 10px 20px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 .header_title-link{
     display: block;
